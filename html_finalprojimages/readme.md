@@ -1,3 +1,7 @@
+<img width="3840" height="2160" alt="JavaScript-Symbol" src="https://github.com/user-attachments/assets/2fce6291-f6bf-41b1-a349-fd88a6836f1d" />
+![waving](https://github.com/user-attachments/assets/d3619999-4883-43cd-a83e-ee8a77b9dfc3)
+<img width="860" height="937" alt="phone" src="https://github.com/user-attachments/assets/0ba84094-2a51-42ca-93d6-6bcbecbee58c" />
+<img width="512" height="512" alt="email" src="https://github.com/user-attachments/assets/52ce5534-0267-453c-91e6-1c1e6fbfbd77" />
 <img width="330" height="330" alt="html" src="https://github.com/user-attachments/assets/f1692886-71f7-487c-8d55-5f522cc6f96d" />
 <img width="3868" height="3878" alt="waving-hand" src="https://github.com/user-attachments/assets/82b0104b-8b76-4fac-a1e1-d7df35b3547c" />
 <img width="1200" height="1043" alt="react" src="https://github.com/user-attachments/assets/84043f68-4c38-40a1-a07d-232c3ce95707" />
