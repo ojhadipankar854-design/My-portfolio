@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dipankar Ojha - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Dipankar Ojha
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          ojhadipankar854@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +91 7319717929
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#Skills">Skills</a>
+          <a class="topmenu" href="#Projects">Projects</a>
+          <a class="topmenu" href="#Recommendations">Recommendations</a>
+          
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://cdn.pixabay.com/photo/2025/08/16/17/14/moon-9778695_1280.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Dipankar  Ojha! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            Bachelor of Computer Applications (BCA) graduate with a solid foundation in Python, C, and Java programming.
+
+            Highly motivated, quick to adapt, and eager to contribute to innovative software development projects. 
+
+            Skilled in problem-solving, debugging, and applying software design principles to deliver efficient and reliable solutions.
+
+            Passionate about technology and committed to continuous learning in areas such as development frameworks, tools, and emerging trends
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>1 years experience</p>
+        </div> 
+        
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"/>
+            <h6>CSS</h6>
+            <p>1 years experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="https://w7.pngwing.com/pngs/234/329/png-transparent-python-logo-thumbnail.png"/>
+            <h6>Python</h6>
+            <p>2 years experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1853px-C_Programming_Language.svg.png"/>
+            <h6>C Programming</h6>
+            <p>1 years experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="https://cdn.prod.website-files.com/66754aa69a5d872183713f9c/672dfced5422c158fb5a6002_mysql%20logo.png"/>
+            <h6>MySQL</h6>
+            <p>2 years experience</p>
+          </div> 
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>AI Automation</h3>
+            <ul>
+              <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Analyzing Tool</h3>
+            <ul>
+              <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Biggest E-Commerce Website</h3>
+            <ul>
+              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          An enthusiastic and adaptable professional with strong problem-solving skills, 
+          creative thinking, and attention to detail. Demonstrates consistent dedication, 
+          teamwork, and innovation to deliver impactful results across projects and organizational goals.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Passionate creator with an eye for detail and a drive to bring ideas to life.
+          Blending creativity with strategy to design impactful and meaningful solutions.
+          Always exploring new ideas, technologies, and approaches to deliver unique results.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Collaborative team player dedicated to driving growth and continuous improvement.
+          Empathetic communicator who builds strong relationships and fosters teamwork.
+          Committed to learning, growing, and contributing effectively to every project. 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation.</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
